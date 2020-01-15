@@ -31,15 +31,6 @@ func gpconnect() {
 	fmt.Println("链接成功")
 }
 
-var name string
-
 func main() {
-	var age int
-	x := 100
-	name = "zhangsan"
-	age = 18
-	fmt.Println("hello world")
-	fmt.Println(x)
-	fmt.Println(name)
-	fmt.Println(age)
+	gpconnect()
 }
